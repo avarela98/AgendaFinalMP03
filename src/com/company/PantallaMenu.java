@@ -6,7 +6,7 @@ public class PantallaMenu {
 
     boolean mostrar(){
         Titulo titulo = new Titulo();
-        titulo.mostrar("BLOC DE NOTAS");    // // titulo = "BLOC DE NOTAS"
+        titulo.mostrar("Bloc De Notas");
 
         Menu menu = new Menu();
         String[] opciones = {"Crear", "Listar", "Salir"};

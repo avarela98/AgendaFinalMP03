@@ -16,12 +16,11 @@ public class Menu {
 
             if (Integer.valueOf(opcion) > opciones.length) {
                 Mensaje mensaje = new Mensaje();
-                mensaje.mostrarError("No existe la opcion");
+                mensaje.mostrarError("La opcion que buscas no existe");
             } else {
                 seguirPidiendo = false;
             }
         }
-
         return opcion;
     }
 }
